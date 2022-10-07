@@ -1,0 +1,1510 @@
+[{
+    "name": "Torrey's Peak",
+    "elevation": 14267,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/torrey's.jpeg",
+    "rank": 11,
+    "range": "Front",
+    "forest": "Arapaho",
+    "numberOfRoutes": 6,
+    "routes": [
+      {
+        "name": "southSlopes",
+        "mileage": 8,
+        "gain": 3000,
+        "difficulty": "class 2",
+        "exposure": 1
+      },
+      {
+        "name": "kelsoRidge",
+        "mileage": 6.75,
+        "gain": 3100,
+        "difficulty": "class 3",
+        "exposure": 4
+      },
+      {
+        "name": "deadDogCouloir",
+        "mileage": 6.5,
+        "gain": 3000,
+        "difficulty": "class 3",
+        "exposure": 3
+      },
+      {
+        "name": "tuningFork",
+        "mileage": 10.5,
+        "gain": 4500,
+        "difficulty": "class 2+",
+        "exposure": 2
+      },
+      {
+        "name": "emperorCouloir",
+        "mileage": 9.5,
+        "gain": 4500,
+        "difficulty": "class 3",
+        "exposure": 3
+      },
+      {
+        "name": "westRidge",
+        "mileage": 10,
+        "gain": 5500,
+        "difficulty": "class 2",
+        "exposure": 2
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Gray's Peak",
+    "elevation": 14270,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/gray's.jpeg",
+    "rank": 9,
+    "range": "Front",
+    "forest": "Arapaho",
+    "numberOfRoutes": 4,
+    "routes": [
+      {
+        "name": "northSlopes",
+        "mileage": 8,
+        "gain": 3000,
+        "difficulty": "class 1",
+        "exposure": 1
+      },
+      {
+        "name": "southRidge",
+        "mileage": 7,
+        "gain": 3250,
+        "difficulty": "class 2",
+        "exposure": 2
+      },
+      {
+        "name": "lostRatCouloir",
+        "mileage": 6.5,
+        "gain": 3000,
+        "difficulty": "class 3",
+        "exposure": 3
+      },
+      {
+        "name": "southWestRidge",
+        "mileage": 10.25,
+        "gain": 3800,
+        "difficulty": "class 2",
+        "exposure": 1
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Long's Peak",
+    "elevation": 14255,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/long's.jpeg",
+    "rank": 15,
+    "range": "Front",
+    "forest": "Rocky Mountain National Park",
+    "numberOfRoutes": 3,
+    "routes": [
+      {
+        "name": "keyhole",
+        "mileage": 14.5,
+        "gain": 5100,
+        "difficulty": "class 3",
+        "exposure": 4
+      },
+      {
+        "name": "loft",
+        "mileage": 13,
+        "gain": 5300,
+        "difficulty": "class 3",
+        "exposure": 4
+      },
+      {
+        "name": "keplingersCouloir",
+        "mileage": 16,
+        "gain": 5900,
+        "difficulty": "class 3",
+        "exposure": 4
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Mount Evans",
+    "elevation": 14262,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/evans.jpeg",
+    "rank": 14,
+    "range": "Front",
+    "forest": "Arapaho",
+    "numberOfRoutes": 3,
+    "routes": [
+      {
+        "name": "westRidge",
+        "mileage": 17,
+        "gain": 5600,
+        "difficulty": "class 2",
+        "exposure": 2
+      },
+      {
+        "name": "northeastFace",
+        "mileage": 3.5,
+        "gain": 1475,
+        "difficulty": "class 2",
+        "exposure": 1
+      },
+      {
+        "name": "northFace",
+        "mileage": 2,
+        "gain": 1500,
+        "difficulty": "class 3",
+        "exposure": 4
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Mount Bierstadt",
+    "elevation": 14060,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/bierstadt.jpeg",
+    "rank": 38,
+    "range": "Front",
+    "forest": "Arapaho",
+    "numberOfRoutes": 2,
+    "routes": [
+      {
+        "name": "westSlopes",
+        "mileage": 7,
+        "gain": 2850,
+        "difficulty": "class 2",
+        "exposure": 1
+      },
+      {
+        "name": "eastRidge",
+        "mileage": 5,
+        "gain": 3000,
+        "difficulty": "class 3",
+        "exposure": 4
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Pikes Peak",
+    "elevation": 14100,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/pikes.jpeg",
+    "rank": 30,
+    "range": "Front",
+    "forest": "Pike",
+    "numberOfRoutes": 2,
+    "routes": [
+      {
+        "name": "eastSlopes",
+        "mileage": 26,
+        "gain": 7500,
+        "difficulty": "class 1",
+        "exposure": 1
+      },
+      {
+        "name": "northwestSlopes",
+        "mileage": 14,
+        "gain": 4300,
+        "difficulty": "class 2",
+        "exposure": 1
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Quandary Peak",
+    "elevation": 14265,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/quandary.jpeg",
+    "rank": 13,
+    "range": "Ten Mile",
+    "forest": "White River",
+    "numberOfRoutes": 4,
+    "routes": [
+      {
+        "name": "eastRidge",
+        "mileage": 6.75,
+        "gain": 3450,
+        "difficulty": "class 1",
+        "exposure": 1
+      },
+      {
+        "name": "cristoCouloir",
+        "mileage": 2,
+        "gain": 2575,
+        "difficulty": "class 2+",
+        "exposure": 2
+      },
+      {
+        "name": "westRidge",
+        "mileage": 4,
+        "gain": 2650,
+        "difficulty": "class 3",
+        "exposure": 4
+      },
+      {
+        "name": "quandaryCouloir",
+        "mileage": 5.25,
+        "gain": 3250,
+        "difficulty": "class 3",
+        "exposure": 3
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Mount Lincoln",
+    "elevation": 14286,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/lincoln.jpeg",
+    "rank": 8,
+    "range": "Mosquito",
+    "forest": "Pike",
+    "numberOfRoutes": 3,
+    "routes": [
+      {
+        "name": "westRidge",
+        "mileage": 6,
+        "gain": 2600,
+        "difficulty": "class 2",
+        "exposure": 1
+      },
+      {
+        "name": "lincolnAmpitheatre",
+        "mileage": 4.75,
+        "gain": 3400,
+        "difficulty": "class 2",
+        "exposure": 2
+      },
+      {
+        "name": "eastSlopes",
+        "mileage": 6.5,
+        "gain": 2650,
+        "difficulty": "class 2",
+        "exposure": 1
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Mount Cameron",
+    "elevation": 14238,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/cameron.jpeg",
+    "rank": 0,
+    "range": "Mosquito",
+    "forest": "Pike",
+    "numberOfRoutes": 1,
+    "routes": [
+      {
+        "name": "westRidge",
+        "mileage": 4.75,
+        "gain": 2250,
+        "difficulty": "class 2",
+        "exposure": 1
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Mount Bross",
+    "elevation": 14172,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/bross.jpeg",
+    "rank": 22,
+    "range": "Mosquito",
+    "forest": "Pike",
+    "numberOfRoutes": 5,
+    "routes": [
+      {
+        "name": "westSlopes",
+        "mileage": 3.25,
+        "gain": 2250,
+        "difficulty": "class 2",
+        "exposure": 2
+      },
+      {
+        "name": "eastSlopesMineralPark",
+        "mileage": 9,
+        "gain": 2900,
+        "difficulty": "class 1",
+        "exposure": 1
+      },
+      {
+        "name": "sGully",
+        "mileage": 9.5,
+        "gain": 2600,
+        "difficulty": "class 2",
+        "exposure": 1
+      },
+      {
+        "name": "dollyVardenGully",
+        "mileage": 4,
+        "gain": 2900,
+        "difficulty": "class 2",
+        "exposure": 1
+      },
+      {
+        "name": "eastSlopesMooseCreek",
+        "mileage": 5,
+        "gain": 3100,
+        "difficulty": "class 2",
+        "exposure": 1
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Mount Democrat",
+    "elevation": 14148,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/democrat.jpeg",
+    "rank": 28,
+    "range": "Mosquito",
+    "forest": "Pike",
+    "numberOfRoutes": 2,
+    "routes": [
+      {
+        "name": "eastSlope",
+        "mileage": 4,
+        "gain": 2150,
+        "difficulty": "class 2",
+        "exposure": 1
+      },
+      {
+        "name": "southSlope",
+        "mileage": 2.5,
+        "gain": 2150,
+        "difficulty": "class 2+",
+        "exposure": 3
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Mount Sherman",
+    "elevation": 14036,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/sherman.jpeg",
+    "rank": 45,
+    "range": "Mosquito",
+    "forest": "Pike",
+    "numberOfRoutes": 3,
+    "routes": [
+      {
+        "name": "southwestRidge",
+        "mileage": 5.25,
+        "gain": 2100,
+        "difficulty": "class 2",
+        "exposure": 2
+      },
+      {
+        "name": "westSlopesFromIowaGulch",
+        "mileage": 4.5,
+        "gain": 2150,
+        "difficulty": "class 2",
+        "exposure": 2
+      },
+      {
+        "name": "southSlope",
+        "mileage": 8.5,
+        "gain": 3100,
+        "difficulty": "class 2",
+        "exposure": 1
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Mount Elbert",
+    "elevation": 14433,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/elbert-1.jpeg",
+    "rank": 1,
+    "range": "Sawatch",
+    "forest": "San Isabel",
+    "numberOfRoutes": 3,
+    "routes": [
+      {
+        "name": "northeastRidge",
+        "mileage": 9.5,
+        "gain": 4700,
+        "difficulty": "class 1",
+        "exposure": 1
+      },
+      {
+        "name": "eastRidge",
+        "mileage": 10,
+        "gain": 4100,
+        "difficulty": "class 1",
+        "exposure": 1
+      },
+      {
+        "name": "southeastRidge",
+        "mileage": 11,
+        "gain": 5300,
+        "difficulty": "class 2",
+        "exposure": 1
+      },
+      {
+        "name": "boxCreekCouloir",
+        "mileage": 8.5,
+        "gain": 4150,
+        "difficulty": "class 2+",
+        "exposure": 3
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Mount Massive",
+    "elevation": 14421,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/massive.jpeg",
+    "rank": 2,
+    "range": "Sawatch",
+    "forest": "San Isabel",
+    "numberOfRoutes": 3,
+    "routes": [
+      {
+        "name": "eastSlopes",
+        "mileage": 14.5,
+        "gain": 4500,
+        "difficulty": "class 2",
+        "exposure": 2
+      },
+      {
+        "name": "southwestSlopes",
+        "mileage": 8,
+        "gain": 3950,
+        "difficulty": "class 2",
+        "exposure": 2
+      },
+      {
+        "name": "eastRidge",
+        "mileage": 14,
+        "gain": 4800,
+        "difficulty": "class 2+",
+        "exposure": 2
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Mount Harvard",
+    "elevation": 14420,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/harvard.jpeg",
+    "rank": 3,
+    "range": "Sawatch",
+    "forest": "San Isabel",
+    "numberOfRoutes": 2,
+    "routes": [
+      {
+        "name": "southSlopes",
+        "mileage": 14,
+        "gain": 4600,
+        "difficulty": "class 2",
+        "exposure": 2
+      },
+      {
+        "name": "southFace",
+        "mileage": 14,
+        "gain": 4600,
+        "difficulty": "class 2",
+        "exposure": 2
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Mount Columbia",
+    "elevation": 14073,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/columbia.jpeg",
+    "rank": 35,
+    "range": "Sawatch",
+    "forest": "San Isabel",
+    "numberOfRoutes": 3,
+    "routes": [
+      {
+        "name": "westSlopes",
+        "mileage": 11.5,
+        "gain": 4250,
+        "difficulty": "class 2",
+        "exposure": 2
+      },
+      {
+        "name": "southeastRidge",
+        "mileage": 12,
+        "gain": 4800,
+        "difficulty": "class 2",
+        "exposure": 2
+      },
+      {
+        "name": "southwestCouloir",
+        "mileage": 13.5,
+        "gain": 4800,
+        "difficulty": "class 2",
+        "exposure": 2
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "La Plata Peak",
+    "elevation": 14336,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/laPlata.jpeg",
+    "rank": 5,
+    "range": "Sawatch",
+    "forest": "San Isabel",
+    "numberOfRoutes": 3,
+    "routes": [
+      {
+        "name": "northwestRidge",
+        "mileage": 9.25,
+        "gain": 4500,
+        "difficulty": "class 2",
+        "exposure": 2
+      },
+      {
+        "name": "southwestRidge",
+        "mileage": 7,
+        "gain": 3380,
+        "difficulty": "class 2",
+        "exposure": 2
+      },
+      {
+        "name": "ellingwoodRidge",
+        "mileage": 9.5,
+        "gain": 5900,
+        "difficulty": "class 3",
+        "exposure": 4
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Mount of the Holy Cross",
+    "elevation": 14005,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/Mount+of+the+Holy+Cross.jpeg",
+    "rank": 51,
+    "range": "Sawatch",
+    "forest": "White River",
+    "numberOfRoutes": 3,
+    "routes": [
+      {
+        "name": "northRidge",
+        "mileage": 12,
+        "gain": 5600,
+        "difficulty": "class 2",
+        "exposure": 2
+      },
+      {
+        "name": "crossCouloir",
+        "mileage": 12.25,
+        "gain": 5600,
+        "difficulty": "class 3",
+        "exposure": 3
+      },
+      {
+        "name": "haloRidge",
+        "mileage": 15,
+        "gain": 5210,
+        "difficulty": "class 2+",
+        "exposure": 3
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Mount Huron",
+    "elevation": 14003,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/huron.jpeg",
+    "rank": 52,
+    "range": "Sawatch",
+    "forest": "San Isabel",
+    "numberOfRoutes": 3,
+    "routes": [
+      {
+        "name": "northwestSlopes",
+        "mileage": 6.5,
+        "gain": 3500,
+        "difficulty": "class 2",
+        "exposure": 2
+      },
+      {
+        "name": "southwestSlopes",
+        "mileage": 9,
+        "gain": 3600,
+        "difficulty": "class 2",
+        "exposure": 2
+      },
+      {
+        "name": "northRidgeFromLuluGulch",
+        "mileage": 8.4,
+        "gain": 3980,
+        "difficulty": "class 2",
+        "exposure": 2
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Missouri Mountain",
+    "elevation": 14067,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/Missouri+Mountain.jpeg",
+    "rank": 36,
+    "range": "Sawatch",
+    "forest": "San Isabel",
+    "numberOfRoutes": 3,
+    "routes": [
+      {
+        "name": "northwestRidge",
+        "mileage": 10.5,
+        "gain": 4500,
+        "difficulty": "class 2",
+        "exposure": 3
+      },
+      {
+        "name": "westRidge",
+        "mileage": 11.75,
+        "gain": 4250,
+        "difficulty": "class 2",
+        "exposure": 3
+      },
+      {
+        "name": "northFaceCouloirs",
+        "mileage": 9,
+        "gain": 4500,
+        "difficulty": "class 2+",
+        "exposure": 3
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Mount Belford",
+    "elevation": 14197,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/Belford.jpeg",
+    "rank": 18,
+    "range": "Sawatch",
+    "forest": "San Isabel",
+    "numberOfRoutes": 1,
+    "routes": [
+      {
+        "name": "northwestRidge",
+        "mileage": 8,
+        "gain": 4500,
+        "difficulty": "class 2",
+        "exposure": 1
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Mount Oxford",
+    "elevation": 14153,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/Oxford.jpeg",
+    "rank": 26,
+    "range": "Sawatch",
+    "forest": "San Isabel",
+    "numberOfRoutes": 1,
+    "routes": [
+      {
+        "name": "viaMtBelford",
+        "mileage": 11,
+        "gain": 5800,
+        "difficulty": "class 2",
+        "exposure": 2
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Mount Princeton",
+    "elevation": 14197,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/Princeton.jpeg",
+    "rank": 20,
+    "range": "Sawatch",
+    "forest": "San Isabel",
+    "numberOfRoutes": 1,
+    "routes": [
+      {
+        "name": "eastSlopes",
+        "mileage": 6.5,
+        "gain": 3200,
+        "difficulty": "class 2",
+        "exposure": 2
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Mount Yale",
+    "elevation": 14196,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/Yale.jpeg",
+    "rank": 21,
+    "range": "Sawatch",
+    "forest": "San Isabel",
+    "numberOfRoutes": 2,
+    "routes": [
+      {
+        "name": "southwestSlopes",
+        "mileage": 9.5,
+        "gain": 4300,
+        "difficulty": "class 2",
+        "exposure": 2
+      },
+      {
+        "name": "eastRidge",
+        "mileage": 10.5,
+        "gain": 5000,
+        "difficulty": "class 2",
+        "exposure": 2
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Mount Antero",
+    "elevation": 14269,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/Antero.jpeg",
+    "rank": 10,
+    "range": "Sawatch",
+    "forest": "San Isabel",
+    "numberOfRoutes": 1,
+    "routes": [
+      {
+        "name": "westSlopes",
+        "mileage": 16,
+        "gain": 5200,
+        "difficulty": "class 2",
+        "exposure": 2
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Mount Shavano",
+    "elevation": 14229,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/Shavano.jpeg",
+    "rank": 17,
+    "range": "Sawatch",
+    "forest": "San Isabel",
+    "numberOfRoutes": 2,
+    "routes": [
+      {
+        "name": "eastSlopes",
+        "mileage": 9,
+        "gain": 4600,
+        "difficulty": "class 2",
+        "exposure": 2
+      },
+      {
+        "name": "angelOfShavano",
+        "mileage": 7.5,
+        "gain": 4600,
+        "difficulty": "class 2",
+        "exposure": 2
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Tabeguache Peak",
+    "elevation": 14155,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/Tabeguache.jpeg",
+    "rank": 25,
+    "range": "Sawatch",
+    "forest": "San Isabel",
+    "numberOfRoutes": 2,
+    "routes": [
+      {
+        "name": "viaMtShavano",
+        "mileage": 11,
+        "gain": 5600,
+        "difficulty": "class 2",
+        "exposure": 2
+      },
+      {
+        "name": "westRidge",
+        "mileage": 8,
+        "gain": 4000,
+        "difficulty": "class 2",
+        "exposure": 2
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Blanca Peak",
+    "elevation": 14345,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/Blanca.jpeg",
+    "rank": 4,
+    "range": "Sangre de Cristo",
+    "forest": "Rio Grande",
+    "numberOfRoutes": 1,
+    "routes": [
+      {
+        "name": "northwestRidge",
+        "mileage": 17,
+        "gain": 6500,
+        "difficulty": "class 2+",
+        "exposure": 3
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Little Bear Peak",
+    "elevation": 14037,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/Little+Bear.jpeg",
+    "rank": 44,
+    "range": "Sangre de Cristo",
+    "forest": "Rio Grande",
+    "numberOfRoutes": 1,
+    "routes": [
+      {
+        "name": "westRidge",
+        "mileage": 14,
+        "gain": 6200,
+        "difficulty": "class 4",
+        "exposure": 4
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Mount Lindsey",
+    "elevation": 14042,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/Lindsey.jpeg",
+    "rank": 43,
+    "range": "Sangre de Cristo",
+    "forest": "San Isabel",
+    "numberOfRoutes": 3,
+    "routes": [
+      {
+        "name": "northwestGully",
+        "mileage": 8.25,
+        "gain": 3500,
+        "difficulty": "class 3",
+        "exposure": 3
+      },
+      {
+        "name": "northwestRidge",
+        "mileage": 8.25,
+        "gain": 3500,
+        "difficulty": "class 3",
+        "exposure": 4
+      },
+      {
+        "name": "northCouloir",
+        "mileage": 8.75,
+        "gain": 3900,
+        "difficulty": "class 2",
+        "exposure": 2
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Crestone Peak",
+    "elevation": 14294,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/Crestone.jpeg",
+    "rank": 7,
+    "range": "Sangre de Cristo",
+    "forest": "San Isabel",
+    "numberOfRoutes": 1,
+    "routes": [
+      {
+        "name": "southFace",
+        "mileage": 14,
+        "gain": 5700,
+        "difficulty": "class 3",
+        "exposure": 4
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Crestone Needle",
+    "elevation": 14197,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/Crestone+Needle.jpeg",
+    "rank": 19,
+    "range": "Sangre de Cristo",
+    "forest": "San Isabel",
+    "numberOfRoutes": 2,
+    "routes": [
+      {
+        "name": "southFace",
+        "mileage": 12,
+        "gain": 4400,
+        "difficulty": "class 3",
+        "exposure": 4
+      },
+      {
+        "name": "ellingwoodArete",
+        "mileage": 11.25,
+        "gain": 4400,
+        "difficulty": "class 5",
+        "exposure": 5
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Humboldt Peak",
+    "elevation": 14064,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/Humboldt.jpeg",
+    "rank": 37,
+    "range": "Sangre de Cristo",
+    "forest": "San Isabel",
+    "numberOfRoutes": 3,
+    "routes": [
+      {
+        "name": "westRidge",
+        "mileage": 11,
+        "gain": 4200,
+        "difficulty": "class 2",
+        "exposure": 2
+      },
+      {
+        "name": "eastRidge",
+        "mileage": 8,
+        "gain": 4300,
+        "difficulty": "class 2",
+        "exposure": 3
+      },
+      {
+        "name": "southeastGully",
+        "mileage": 8,
+        "gain": 5400,
+        "difficulty": "class 2",
+        "exposure": 2
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Kit Carson Peak",
+    "elevation": 14165,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/Kit+Carson+Peak.jpeg",
+    "rank": 23,
+    "range": "Sangre de Cristo",
+    "forest": "Rio Grande",
+    "numberOfRoutes": 4,
+    "routes": [
+      {
+        "name": "viaChallengerPoint",
+        "mileage": 14.5,
+        "gain": 6250,
+        "difficulty": "class 3",
+        "exposure": 3
+      },
+      {
+        "name": "eastRidge",
+        "mileage": 14.5,
+        "gain": 5900,
+        "difficulty": "class 3",
+        "exposure": 4
+      },
+      {
+        "name": "northRidge",
+        "mileage": 11.4,
+        "gain": 5315,
+        "difficulty": "class 4",
+        "exposure": 4
+      },
+      {
+        "name": "southeastGully",
+        "mileage": 13.75,
+        "gain": 5500,
+        "difficulty": "class 3",
+        "exposure": 3
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Challenger Point",
+    "elevation": 14081,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/challenger.jpeg",
+    "rank": 34,
+    "range": "Sangre de Cristo",
+    "forest": "Rio Grande",
+    "numberOfRoutes": 2,
+    "routes": [
+      {
+        "name": "northSlope",
+        "mileage": 12.5,
+        "gain": 5400,
+        "difficulty": "class 2+",
+        "exposure": 2
+      },
+      {
+        "name": "kirkCouloir",
+        "mileage": 12.75,
+        "gain": 5400,
+        "difficulty": "class 3",
+        "exposure": 3
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Culebra Peak",
+    "elevation": 14047,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/culebra.jpeg",
+    "rank": 41,
+    "range": "Sangre de Cristo",
+    "forest": "Cielo Vista Ranch",
+    "numberOfRoutes": 1,
+    "routes": [
+      {
+        "name": "northwestRidge",
+        "mileage": 5,
+        "gain": 2700,
+        "difficulty": "class 2",
+        "exposure": 2
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Castle Peak",
+    "elevation": 14265,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/castle.jpeg",
+    "rank": 12,
+    "range": "Elk",
+    "forest": "White River",
+    "numberOfRoutes": 3,
+    "routes": [
+      {
+        "name": "northeastRidge",
+        "mileage": 13.5,
+        "gain": 4600,
+        "difficulty": "class 2+",
+        "exposure": 3
+      },
+      {
+        "name": "northwestRidge",
+        "mileage": 13.5,
+        "gain": 4600,
+        "difficulty": "class 2+",
+        "exposure": 3
+      },
+      {
+        "name": "northFaceCouloir",
+        "mileage": 13,
+        "gain": 4600,
+        "difficulty": "class 2+",
+        "exposure": 3
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Conundrum Peak",
+    "elevation": 14060,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/conundrum.jpeg",
+    "rank": 0,
+    "range": "Elk",
+    "forest": "White River",
+    "numberOfRoutes": 1,
+    "routes": [
+      {
+        "name": "viaCastlePeak",
+        "mileage": 14.5,
+        "gain": 4850,
+        "difficulty": "class 2+",
+        "exposure": 3
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Maroon Peak",
+    "elevation": 14163,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/maroon.jpeg",
+    "rank": 24,
+    "range": "Elk",
+    "forest": "White River",
+    "numberOfRoutes": 2,
+    "routes": [
+      {
+        "name": "southRidge",
+        "mileage": 11.5,
+        "gain": 4800,
+        "difficulty": "class 3",
+        "exposure": 4
+      },
+      {
+        "name": "bellCordCouloir",
+        "mileage": 8,
+        "gain": 4556,
+        "difficulty": "class 4",
+        "exposure": 4
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "North Maroon Peak",
+    "elevation": 14014,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/northMaroon.jpeg",
+    "rank": 0,
+    "range": "Elk",
+    "forest": "White River",
+    "numberOfRoutes": 1,
+    "routes": [
+      {
+        "name": "northeastRidge",
+        "mileage": 9.25,
+        "gain": 4500,
+        "difficulty": "class 4",
+        "exposure": 4
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Pyramid Peak",
+    "elevation": 14018,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/pyramid.jpeg",
+    "rank": 47,
+    "range": "Elk",
+    "forest": "White River",
+    "numberOfRoutes": 1,
+    "routes": [
+      {
+        "name": "northeastRidge",
+        "mileage": 8.25,
+        "gain": 4500,
+        "difficulty": "class 4",
+        "exposure": 4
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Capitol Peak",
+    "elevation": 14130,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/capitol.jpeg",
+    "rank": 29,
+    "range": "Elk",
+    "forest": "White River",
+    "numberOfRoutes": 1,
+    "routes": [
+      {
+        "name": "northeastRidge",
+        "mileage": 17,
+        "gain": 5300,
+        "difficulty": "class 4",
+        "exposure": 4
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Snowmass Mountain",
+    "elevation": 14092,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/snowmass.jpeg",
+    "rank": 31,
+    "range": "Elk",
+    "forest": "White River",
+    "numberOfRoutes": 2,
+    "routes": [
+      {
+        "name": "eastSlopes",
+        "mileage": 22,
+        "gain": 5800,
+        "difficulty": "class 3",
+        "exposure": 4
+      },
+      {
+        "name": "westSlope",
+        "mileage": 9,
+        "gain": 4500,
+        "difficulty": "class 3",
+        "exposure": 4
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Uncompahgre Peak",
+    "elevation": 14309,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/uncompahgre.jpeg",
+    "rank": 6,
+    "range": "San Juan",
+    "forest": "Uncompahgre",
+    "numberOfRoutes": 1,
+    "routes": [
+      {
+        "name": "southRidge",
+        "mileage": 7.5,
+        "gain": 3000,
+        "difficulty": "class 2",
+        "exposure": 2
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Mount Wilson",
+    "elevation": 14246,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/mountWilson.jpeg",
+    "rank": 16,
+    "range": "San Juan",
+    "forest": "San Juan",
+    "numberOfRoutes": 3,
+    "routes": [
+      {
+        "name": "northSlopes",
+        "mileage": 16,
+        "gain": 5100,
+        "difficulty": "class 4",
+        "exposure": 4
+      },
+      {
+        "name": "southwestSlopes",
+        "mileage": 12.5,
+        "gain": 4400,
+        "difficulty": "class 3",
+        "exposure": 4
+      },
+      {
+        "name": "eastFace",
+        "mileage": 12,
+        "gain": 4900,
+        "difficulty": "class 3",
+        "exposure": 4
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Wilson Peak",
+    "elevation": 14017,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/wilsonPeak.jpeg",
+    "rank": 48,
+    "range": "San Juan",
+    "forest": "San Juan",
+    "numberOfRoutes": 1,
+    "routes": [
+      {
+        "name": "southwestRidge",
+        "mileage": 10,
+        "gain": 5000,
+        "difficulty": "class 3",
+        "exposure": 4
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "El Diente Peak",
+    "elevation": 14159,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/El+Diente.jpeg",
+    "rank": 0,
+    "range": "San Juan",
+    "forest": "San Juan",
+    "numberOfRoutes": 3,
+    "routes": [
+      {
+        "name": "northSlopes",
+        "mileage": 15,
+        "gain": 5000,
+        "difficulty": "class 3",
+        "exposure": 3
+      },
+      {
+        "name": "southSlopes",
+        "mileage": 12,
+        "gain": 4300,
+        "difficulty": "class 3",
+        "exposure": 3
+      },
+      {
+        "name": "northButtress",
+        "mileage": 5,
+        "gain": 3200,
+        "difficulty": "class 4",
+        "exposure": 5
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Mount Sneffels",
+    "elevation": 14150,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/sneffels.jpeg",
+    "rank": 27,
+    "range": "San Juan",
+    "forest": "Uncompahgre",
+    "numberOfRoutes": 2,
+    "routes": [
+      {
+        "name": "southSlopes",
+        "mileage": 6,
+        "gain": 2900,
+        "difficulty": "class 3",
+        "exposure": 3
+      },
+      {
+        "name": "southwestRidge",
+        "mileage": 6.5,
+        "gain": 2950,
+        "difficulty": "class 3",
+        "exposure": 3
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Mount Eolus",
+    "elevation": 14083,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/eolus.jpeg",
+    "rank": 32,
+    "range": "San Juan",
+    "forest": "San Juan",
+    "numberOfRoutes": 1,
+    "routes": [
+      {
+        "name": "northeastRidge",
+        "mileage": 17,
+        "gain": 6100,
+        "difficulty": "class 3",
+        "exposure": 4
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "North Eolus",
+    "elevation": 14039,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/northEolus.jpeg",
+    "rank": 0,
+    "range": "San Juan",
+    "forest": "San Juan",
+    "numberOfRoutes": 1,
+    "routes": [
+      {
+        "name": "southRidge",
+        "mileage": 16.75,
+        "gain": 6000,
+        "difficulty": "class 3",
+        "exposure": 3
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Windom Peak",
+    "elevation": 14082,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/windom.jpeg",
+    "rank": 33,
+    "range": "San Juan",
+    "forest": "San Juan",
+    "numberOfRoutes": 1,
+    "routes": [
+      {
+        "name": "westRidge",
+        "mileage": 17,
+        "gain": 6000,
+        "difficulty": "class 2+",
+        "exposure": 3
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Sunlight Peak",
+    "elevation": 14059,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/sunlight.jpeg",
+    "rank": 39,
+    "range": "San Juan",
+    "forest": "San Juan",
+    "numberOfRoutes": 1,
+    "routes": [
+      {
+        "name": "southFace",
+        "mileage": 17,
+        "gain": 6000,
+        "difficulty": "class 4",
+        "exposure": 5
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Handies Peak",
+    "elevation": 14048,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/handies.jpeg",
+    "rank": 40,
+    "range": "San Juan",
+    "forest": "San Juan",
+    "numberOfRoutes": 3,
+    "routes": [
+      {
+        "name": "southwestSlopes",
+        "mileage": 5.75,
+        "gain": 2500,
+        "difficulty": "class 1",
+        "exposure": 1
+      },
+      {
+        "name": "eastSlopes",
+        "mileage": 8,
+        "gain": 3650,
+        "difficulty": "class 2",
+        "exposure": 2
+      },
+      {
+        "name": "westSlopes",
+        "mileage": 5,
+        "gain": 2800,
+        "difficulty": "class 2",
+        "exposure": 2
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Red Cloud Peak",
+    "elevation": 14034,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/Red+Cloud.jpeg",
+    "rank": 46,
+    "range": "San Juan",
+    "forest": "San Juan",
+    "numberOfRoutes": 1,
+    "routes": [
+      {
+        "name": "northeastRidge",
+        "mileage": 9,
+        "gain": 3700,
+        "difficulty": "class 2",
+        "exposure": 2
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Sunshine Peak",
+    "elevation": 14001,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/sunshine.jpeg",
+    "rank": 53,
+    "range": "San Juan",
+    "forest": "San Juan",
+    "numberOfRoutes": 3,
+    "routes": [
+      {
+        "name": "viaRedcloudPeak",
+        "mileage": 12.25,
+        "gain": 4800,
+        "difficulty": "class 2",
+        "exposure": 2
+      },
+      {
+        "name": "northwestFace",
+        "mileage": 8.5,
+        "gain": 3800,
+        "difficulty": "class 2+",
+        "exposure": 2
+      },
+      {
+        "name": "eastRidge",
+        "mileage": 7,
+        "gain": 4600,
+        "difficulty": "class 2",
+        "exposure": 2
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "Wetterhorn Peak",
+    "elevation": 14015,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/wetterhorn.jpeg",
+    "rank": 49,
+    "range": "San Juan",
+    "forest": "Uncompahgre",
+    "numberOfRoutes": 2,
+    "routes": [
+      {
+        "name": "southeastRidge",
+        "mileage": 7,
+        "gain": 3300,
+        "difficulty": "class 3",
+        "exposure": 4
+      },
+      {
+        "name": "eastFace",
+        "mileage": 6.5,
+        "gain": 3300,
+        "difficulty": "class 3",
+        "exposure": 4
+      }
+    ],
+    "__v": 0
+  },{
+    "name": "San Luis Peak",
+    "elevation": 14014,
+    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/San+Luis.jpeg",
+    "rank": 50,
+    "range": "San Juan",
+    "forest": "Gunnison",
+    "numberOfRoutes": 2,
+    "routes": [
+      {
+        "name": "northeastRidge",
+        "mileage": 13.5,
+        "gain": 3600,
+        "difficulty": "class 1",
+        "exposure": 1
+      },
+      {
+        "name": "southRidge",
+        "mileage": 11,
+        "gain": 3700,
+        "difficulty": "class 1",
+        "exposure": 1
+      }
+    ],
+    "__v": 0
+  }]
