@@ -9,7 +9,7 @@ const {
     getPeak,
     updatePeak,
     deletePeak,
-    uploadPeakPhoto
+    // uploadPeakPhoto
 } = require('../controllers/peaks');
 
 const { protect, authorize } = require('../middleware/auth');
@@ -24,6 +24,6 @@ router.route('/:id')
     .delete(protect, authorize('admin'), deletePeak);
 
 router.route('/:id/uploadphoto')
-.put(protect, authorize('admin'), uploadPeakPhoto);
+// .put(protect, authorize('admin'), uploadPeakPhoto);
 
 module.exports = router;
