@@ -9,21 +9,21 @@ const {
     getPeak,
     updatePeak,
     deletePeak,
-    // peakUploadPhoto
+    uploadPeakPhoto
 } = require('../controllers/peaks');
 
 const { protect, authorize } = require('../middleware/auth');
 
 router.route('/')
     .get(filteredResults(Peak), getPeaks)
-    .post(protect, authorize('publisher', 'admin'), createPeak);
+    .post(protect, authorize('admin'), createPeak);
 
 router.route('/:id')
     .get(getPeak)
-    .put(protect, authorize('publisher', 'admin'), updatePeak)
-    .delete(protect, authorize('publisher', 'admin'), deletePeak);
+    .put(protect, authorize('admin'), updatePeak)
+    .delete(protect, authorize('admin'), deletePeak);
 
-router.route('/:id/photo')
-.put(protect, authorize('publisher', 'admin'), updatePeak)
+router.route('/:id/uploadphoto')
+.put(protect, authorize('admin'), uploadPeakPhoto);
 
 module.exports = router;

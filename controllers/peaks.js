@@ -1,6 +1,8 @@
 const Peak = require('../models/Peak');
 const ErrorResponse = require('../utils/errorResponse');
 const asyncHandler = require('../middleware/async');
+const { s3 } = require('aws-sdk');
+// import s3 from './s3.js'
 
 // create peak
 // POST /api/v1/peaks
@@ -74,8 +76,7 @@ exports.deletePeak = asyncHandler(async (req, res, next) => {
 // upload peak photo
 // PUT /api/v1/peaks/:id/photo
 // Private
-// This function seemed pointless when I can just use the endpoint to change photo info
-// exports.peakUploadPhoto = asyncHandler(async (req, res, next) => {
+// exports.uploadPeakPhoto = asyncHandler(async (req, res, next) => {
 //     const peak = await Peak.findByIdAndUpdate(req.params.id, req.body, {
 //         new: true,
 //         runValidators: true
@@ -83,6 +84,7 @@ exports.deletePeak = asyncHandler(async (req, res, next) => {
 //     if (!peak) {
 //         return next(new ErrorResponse(`Peak not found with id of ${req.params.id}`, 404));
 //     }
-//     res.status(200).json({ success: true, data: peak });   
+//      const url = s3.generateUploadUrl();
 
+//     res.status(200).json({ success: true, data: peak, url: {url} });   
 // });

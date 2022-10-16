@@ -1,7 +1,11 @@
 [{
     "name": "Torrey's Peak",
     "elevation": 14267,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/torrey's.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/torrey's.jpeg"
+      }
+    ],
     "rank": 11,
     "range": "Front",
     "forest": "Arapaho",
@@ -54,7 +58,11 @@
   },{
     "name": "Gray's Peak",
     "elevation": 14270,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/gray's.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/gray's.jpeg"
+      }
+    ],
     "rank": 9,
     "range": "Front",
     "forest": "Arapaho",
@@ -93,7 +101,11 @@
   },{
     "name": "Long's Peak",
     "elevation": 14255,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/long's.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/long's.jpeg"
+      }
+    ],
     "rank": 15,
     "range": "Front",
     "forest": "Rocky Mountain National Park",
@@ -125,7 +137,11 @@
   },{
     "name": "Mount Evans",
     "elevation": 14262,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/evans.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/evans.jpeg"
+      }
+    ],
     "rank": 14,
     "range": "Front",
     "forest": "Arapaho",
@@ -157,7 +173,11 @@
   },{
     "name": "Mount Bierstadt",
     "elevation": 14060,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/bierstadt.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/bierstadt.jpeg"
+      }
+    ],
     "rank": 38,
     "range": "Front",
     "forest": "Arapaho",
@@ -182,7 +202,11 @@
   },{
     "name": "Pikes Peak",
     "elevation": 14100,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/pikes.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/pikes.jpeg"
+      }
+    ],
     "rank": 30,
     "range": "Front",
     "forest": "Pike",
@@ -207,7 +231,11 @@
   },{
     "name": "Quandary Peak",
     "elevation": 14265,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/quandary.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/quandary.jpeg"
+      }
+    ],
     "rank": 13,
     "range": "Ten Mile",
     "forest": "White River",
@@ -246,7 +274,11 @@
   },{
     "name": "Mount Lincoln",
     "elevation": 14286,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/lincoln.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/lincoln.jpeg"
+      }
+    ],
     "rank": 8,
     "range": "Mosquito",
     "forest": "Pike",
@@ -278,7 +310,11 @@
   },{
     "name": "Mount Cameron",
     "elevation": 14238,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/cameron.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/cameron.jpeg"
+      }
+    ],
     "rank": 0,
     "range": "Mosquito",
     "forest": "Pike",
@@ -296,7 +332,11 @@
   },{
     "name": "Mount Bross",
     "elevation": 14172,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/bross.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/bross.jpeg"
+      }
+    ],
     "rank": 22,
     "range": "Mosquito",
     "forest": "Pike",
@@ -342,7 +382,11 @@
   },{
     "name": "Mount Democrat",
     "elevation": 14148,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/democrat.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/democrat.jpeg"
+      }
+    ],
     "rank": 28,
     "range": "Mosquito",
     "forest": "Pike",
@@ -367,7 +411,11 @@
   },{
     "name": "Mount Sherman",
     "elevation": 14036,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/sherman.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/sherman.jpeg"
+      }
+    ],
     "rank": 45,
     "range": "Mosquito",
     "forest": "Pike",
@@ -399,7 +447,11 @@
   },{
     "name": "Mount Elbert",
     "elevation": 14433,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/elbert-1.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/elbert-1.jpeg"
+      }
+    ],
     "rank": 1,
     "range": "Sawatch",
     "forest": "San Isabel",
@@ -438,7 +490,11 @@
   },{
     "name": "Mount Massive",
     "elevation": 14421,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/massive.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/massive.jpeg"
+      }
+    ],
     "rank": 2,
     "range": "Sawatch",
     "forest": "San Isabel",
@@ -470,7 +526,11 @@
   },{
     "name": "Mount Harvard",
     "elevation": 14420,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/harvard.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/harvard.jpeg"
+      }
+    ],
     "rank": 3,
     "range": "Sawatch",
     "forest": "San Isabel",
@@ -495,7 +555,11 @@
   },{
     "name": "Mount Columbia",
     "elevation": 14073,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/columbia.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/columbia.jpeg"
+      }
+    ],
     "rank": 35,
     "range": "Sawatch",
     "forest": "San Isabel",
@@ -527,7 +591,11 @@
   },{
     "name": "La Plata Peak",
     "elevation": 14336,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/laPlata.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/laPlata.jpeg"
+      }
+    ],
     "rank": 5,
     "range": "Sawatch",
     "forest": "San Isabel",
@@ -559,7 +627,11 @@
   },{
     "name": "Mount of the Holy Cross",
     "elevation": 14005,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/Mount+of+the+Holy+Cross.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/Mount+of+the+Holy+Cross.jpeg"
+      }
+    ],
     "rank": 51,
     "range": "Sawatch",
     "forest": "White River",
@@ -591,7 +663,11 @@
   },{
     "name": "Mount Huron",
     "elevation": 14003,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/huron.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/huron.jpeg"
+      }
+    ],
     "rank": 52,
     "range": "Sawatch",
     "forest": "San Isabel",
@@ -623,7 +699,11 @@
   },{
     "name": "Missouri Mountain",
     "elevation": 14067,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/Missouri+Mountain.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/Missouri+Mountain.jpeg"
+      }
+    ],
     "rank": 36,
     "range": "Sawatch",
     "forest": "San Isabel",
@@ -655,7 +735,11 @@
   },{
     "name": "Mount Belford",
     "elevation": 14197,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/Belford.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/Belford.jpeg"
+      }
+    ],
     "rank": 18,
     "range": "Sawatch",
     "forest": "San Isabel",
@@ -673,7 +757,11 @@
   },{
     "name": "Mount Oxford",
     "elevation": 14153,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/Oxford.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/Oxford.jpeg"
+      }
+    ],
     "rank": 26,
     "range": "Sawatch",
     "forest": "San Isabel",
@@ -691,7 +779,11 @@
   },{
     "name": "Mount Princeton",
     "elevation": 14197,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/Princeton.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/Princeton.jpeg"
+      }
+    ],
     "rank": 20,
     "range": "Sawatch",
     "forest": "San Isabel",
@@ -709,7 +801,11 @@
   },{
     "name": "Mount Yale",
     "elevation": 14196,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/Yale.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/Yale.jpeg"
+      }
+    ],
     "rank": 21,
     "range": "Sawatch",
     "forest": "San Isabel",
@@ -734,7 +830,11 @@
   },{
     "name": "Mount Antero",
     "elevation": 14269,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/Antero.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/Antero.jpeg"
+      }
+    ],
     "rank": 10,
     "range": "Sawatch",
     "forest": "San Isabel",
@@ -752,7 +852,11 @@
   },{
     "name": "Mount Shavano",
     "elevation": 14229,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/Shavano.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/Shavano.jpeg"
+      }
+    ],
     "rank": 17,
     "range": "Sawatch",
     "forest": "San Isabel",
@@ -777,7 +881,11 @@
   },{
     "name": "Tabeguache Peak",
     "elevation": 14155,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/Tabeguache.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/Tabeguache.jpeg"
+      }
+    ],
     "rank": 25,
     "range": "Sawatch",
     "forest": "San Isabel",
@@ -802,7 +910,11 @@
   },{
     "name": "Blanca Peak",
     "elevation": 14345,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/Blanca.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/Blanca.jpeg"
+      }
+    ],
     "rank": 4,
     "range": "Sangre de Cristo",
     "forest": "Rio Grande",
@@ -820,7 +932,11 @@
   },{
     "name": "Little Bear Peak",
     "elevation": 14037,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/Little+Bear.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/Little+Bear.jpeg"
+      }
+    ],
     "rank": 44,
     "range": "Sangre de Cristo",
     "forest": "Rio Grande",
@@ -838,7 +954,11 @@
   },{
     "name": "Mount Lindsey",
     "elevation": 14042,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/Lindsey.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/Lindsey.jpeg"
+      }
+    ],
     "rank": 43,
     "range": "Sangre de Cristo",
     "forest": "San Isabel",
@@ -870,7 +990,11 @@
   },{
     "name": "Crestone Peak",
     "elevation": 14294,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/Crestone.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/Crestone.jpeg"
+      }
+    ],
     "rank": 7,
     "range": "Sangre de Cristo",
     "forest": "San Isabel",
@@ -888,7 +1012,11 @@
   },{
     "name": "Crestone Needle",
     "elevation": 14197,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/Crestone+Needle.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/Crestone+Needle.jpeg"
+      }
+    ],
     "rank": 19,
     "range": "Sangre de Cristo",
     "forest": "San Isabel",
@@ -913,7 +1041,11 @@
   },{
     "name": "Humboldt Peak",
     "elevation": 14064,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/Humboldt.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/Humboldt.jpeg"
+      }
+    ],
     "rank": 37,
     "range": "Sangre de Cristo",
     "forest": "San Isabel",
@@ -945,7 +1077,11 @@
   },{
     "name": "Kit Carson Peak",
     "elevation": 14165,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/Kit+Carson+Peak.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/Kit+Carson+Peak.jpeg"
+      }
+    ],
     "rank": 23,
     "range": "Sangre de Cristo",
     "forest": "Rio Grande",
@@ -984,7 +1120,11 @@
   },{
     "name": "Challenger Point",
     "elevation": 14081,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/challenger.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/challenger.jpeg"
+      }
+    ],
     "rank": 34,
     "range": "Sangre de Cristo",
     "forest": "Rio Grande",
@@ -1009,7 +1149,11 @@
   },{
     "name": "Culebra Peak",
     "elevation": 14047,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/culebra.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/culebra.jpeg"
+      }
+    ],
     "rank": 41,
     "range": "Sangre de Cristo",
     "forest": "Cielo Vista Ranch",
@@ -1027,7 +1171,11 @@
   },{
     "name": "Castle Peak",
     "elevation": 14265,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/castle.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/castle.jpeg"
+      }
+    ],
     "rank": 12,
     "range": "Elk",
     "forest": "White River",
@@ -1059,7 +1207,11 @@
   },{
     "name": "Conundrum Peak",
     "elevation": 14060,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/conundrum.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/conundrum.jpeg"
+      }
+    ],
     "rank": 0,
     "range": "Elk",
     "forest": "White River",
@@ -1077,7 +1229,11 @@
   },{
     "name": "Maroon Peak",
     "elevation": 14163,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/maroon.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/maroon.jpeg"
+      }
+    ],
     "rank": 24,
     "range": "Elk",
     "forest": "White River",
@@ -1102,7 +1258,11 @@
   },{
     "name": "North Maroon Peak",
     "elevation": 14014,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/northMaroon.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/northMaroon.jpeg"
+      }
+    ],
     "rank": 0,
     "range": "Elk",
     "forest": "White River",
@@ -1120,7 +1280,11 @@
   },{
     "name": "Pyramid Peak",
     "elevation": 14018,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/pyramid.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/pyramid.jpeg"
+      }
+    ],
     "rank": 47,
     "range": "Elk",
     "forest": "White River",
@@ -1138,7 +1302,11 @@
   },{
     "name": "Capitol Peak",
     "elevation": 14130,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/capitol.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/capitol.jpeg"
+      }
+    ],
     "rank": 29,
     "range": "Elk",
     "forest": "White River",
@@ -1156,7 +1324,11 @@
   },{
     "name": "Snowmass Mountain",
     "elevation": 14092,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/snowmass.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/snowmass.jpeg"
+      }
+    ],
     "rank": 31,
     "range": "Elk",
     "forest": "White River",
@@ -1181,7 +1353,11 @@
   },{
     "name": "Uncompahgre Peak",
     "elevation": 14309,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/uncompahgre.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/uncompahgre.jpeg"
+      }
+    ],
     "rank": 6,
     "range": "San Juan",
     "forest": "Uncompahgre",
@@ -1199,7 +1375,11 @@
   },{
     "name": "Mount Wilson",
     "elevation": 14246,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/mountWilson.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/mountWilson.jpeg"
+      }
+    ],
     "rank": 16,
     "range": "San Juan",
     "forest": "San Juan",
@@ -1231,7 +1411,11 @@
   },{
     "name": "Wilson Peak",
     "elevation": 14017,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/wilsonPeak.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/wilsonPeak.jpeg"
+      }
+    ],
     "rank": 48,
     "range": "San Juan",
     "forest": "San Juan",
@@ -1249,7 +1433,11 @@
   },{
     "name": "El Diente Peak",
     "elevation": 14159,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/El+Diente.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/El+Diente.jpeg"
+      }
+    ],
     "rank": 0,
     "range": "San Juan",
     "forest": "San Juan",
@@ -1281,7 +1469,11 @@
   },{
     "name": "Mount Sneffels",
     "elevation": 14150,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/sneffels.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/sneffels.jpeg"
+      }
+    ],
     "rank": 27,
     "range": "San Juan",
     "forest": "Uncompahgre",
@@ -1306,7 +1498,11 @@
   },{
     "name": "Mount Eolus",
     "elevation": 14083,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/eolus.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/eolus.jpeg"
+      }
+    ],
     "rank": 32,
     "range": "San Juan",
     "forest": "San Juan",
@@ -1324,7 +1520,11 @@
   },{
     "name": "North Eolus",
     "elevation": 14039,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/northEolus.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/northEolus.jpeg"
+      }
+    ],
     "rank": 0,
     "range": "San Juan",
     "forest": "San Juan",
@@ -1342,7 +1542,11 @@
   },{
     "name": "Windom Peak",
     "elevation": 14082,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/windom.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/windom.jpeg"
+      }
+    ],
     "rank": 33,
     "range": "San Juan",
     "forest": "San Juan",
@@ -1360,7 +1564,11 @@
   },{
     "name": "Sunlight Peak",
     "elevation": 14059,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/sunlight.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/sunlight.jpeg"
+      }
+    ],
     "rank": 39,
     "range": "San Juan",
     "forest": "San Juan",
@@ -1378,7 +1586,11 @@
   },{
     "name": "Handies Peak",
     "elevation": 14048,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/handies.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/handies.jpeg"
+      }
+    ],
     "rank": 40,
     "range": "San Juan",
     "forest": "San Juan",
@@ -1410,7 +1622,11 @@
   },{
     "name": "Red Cloud Peak",
     "elevation": 14034,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/Red+Cloud.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/Red+Cloud.jpeg"
+      }
+    ],
     "rank": 46,
     "range": "San Juan",
     "forest": "San Juan",
@@ -1428,7 +1644,11 @@
   },{
     "name": "Sunshine Peak",
     "elevation": 14001,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/sunshine.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/sunshine.jpeg"
+      }
+    ],
     "rank": 53,
     "range": "San Juan",
     "forest": "San Juan",
@@ -1460,7 +1680,11 @@
   },{
     "name": "Wetterhorn Peak",
     "elevation": 14015,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/wetterhorn.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/wetterhorn.jpeg"
+      }
+    ],
     "rank": 49,
     "range": "San Juan",
     "forest": "Uncompahgre",
@@ -1485,7 +1709,11 @@
   },{
     "name": "San Luis Peak",
     "elevation": 14014,
-    "photo": "https://fourteeners.s3.us-west-2.amazonaws.com/San+Luis.jpeg",
+    "photos": [
+      {
+        "url": "https://fourteeners.s3.us-west-2.amazonaws.com/San+Luis.jpeg"
+      }
+    ],
     "rank": 50,
     "range": "San Juan",
     "forest": "Gunnison",

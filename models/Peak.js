@@ -24,7 +24,14 @@ const RouteSchema = new mongoose.Schema({
         min: [1, 'Rating must be at least 1'],
         max: [5, 'Rating cannot exceed 5']
     },
-})
+});
+
+const PhotoSchema = new mongoose.Schema({
+    url: {
+        type: String,
+        required: true,
+    },
+});
 
 const PeakSchema = new mongoose.Schema({
     name: {
@@ -40,10 +47,10 @@ const PeakSchema = new mongoose.Schema({
         required: [true, 'Please add elevation'],
         maxlength: [5, 'Elevation cannot exceed 5 characters'],
     },
-    photo: {
-        type: String,
-        default: 'no-photo.jpg'
-    },
+    photos: [{
+        type: PhotoSchema,
+        required: [true, 'Please add photo'],
+    }],
     rank: {
         type: Number,
         required: [true, 'Please add rank'],
