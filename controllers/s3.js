@@ -1,7 +1,6 @@
 import aws from 'aws-skd';
 import dotenv from 'dotenv';
 import { randomBytes } from 'crypto';
-// import { promisify } 
 
 dotenv.config();
 
