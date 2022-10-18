@@ -3,6 +3,20 @@ const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const crypto = require('crypto');
 
+const PeakClimbedSchema = new mongoose.Schema({
+    name: {
+        type: String,
+        required: [true, 'Please add a name']
+    },
+    dateClimbed: {
+        type: Date,
+    },
+    createAt: {
+        type: Date,
+        default: Date.now
+    }
+})
+
 const UserSchema = new mongoose.Schema({
     name: {
         type: String,
@@ -33,7 +47,10 @@ const UserSchema = new mongoose.Schema({
     createAt: {
         type: Date,
         default: Date.now
-    }
+    },
+    peaksClimbed: [{
+        type: PeakClimbedSchema,
+    }]
 });
 
 UserSchema.pre('save', async function(next) {
