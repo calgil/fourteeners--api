@@ -10,7 +10,6 @@ const PeakClimbedSchema = new mongoose.Schema({
     },
     dateClimbed: {
         type: Date,
-        required: [true, 'Please add a date climbed']
     },
     createAt: {
         type: Date,
