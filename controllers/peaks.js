@@ -76,15 +76,20 @@ exports.deletePeak = asyncHandler(async (req, res, next) => {
 // upload peak photo
 // PUT /api/v1/peaks/:id/photo
 // Private
-// exports.uploadPeakPhoto = asyncHandler(async (req, res, next) => {
-//     const peak = await Peak.findByIdAndUpdate(req.params.id, req.body, {
-//         new: true,
-//         runValidators: true
-//     })
-//     if (!peak) {
-//         return next(new ErrorResponse(`Peak not found with id of ${req.params.id}`, 404));
-//     }
-//      const url = s3.generateUploadUrl();
+exports.uploadPeakPhoto = asyncHandler(async (req, res, next) => {
+console.log('req!', req);
+return req;
 
-//     res.status(200).json({ success: true, data: peak, url: {url} });   
-// });
+
+
+    // const peak = await Peak.findByIdAndUpdate(req.params.id, req.body, {
+    //     new: true,
+    //     runValidators: true
+    // })
+    // if (!peak) {
+    //     return next(new ErrorResponse(`Peak not found with id of ${req.params.id}`, 404));
+    // }
+    //  const url = s3.generateUploadUrl();
+
+    // res.status(200).json({ success: true, data: peak, url: {url} });   
+});
