@@ -23,7 +23,8 @@ router.route('/:id')
     .put(protect, authorize('admin'), updatePeak)
     .delete(protect, authorize('admin'), deletePeak);
 
+
 router.route('/uploadphoto/:id')
     .put(protect, authorize('admin'), uploadPeakPhoto);
-
+    
 module.exports = router;
