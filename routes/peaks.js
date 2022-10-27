@@ -2,6 +2,8 @@ const express = require('express');
 const router = express.Router();
 const filteredResults = require('../middleware/filteredResults');
 const Peak = require('../models/Peak');
+const multer  = require('multer')
+const upload = multer({ dest: 'uploads/' })
 
 const {
     createPeak,
@@ -24,7 +26,7 @@ router.route('/:id')
     .delete(protect, authorize('admin'), deletePeak);
 
 
-router.route('/uploadphoto/:id')
-    .put(protect, authorize('admin'), uploadPeakPhoto);
+router.route('/uploadphoto')
+.post(protect, upload.single('image'), authorize('admin'), uploadPeakPhoto);
     
 module.exports = router;

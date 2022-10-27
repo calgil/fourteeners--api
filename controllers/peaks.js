@@ -2,6 +2,8 @@ const Peak = require('../models/Peak');
 const ErrorResponse = require('../utils/errorResponse');
 const asyncHandler = require('../middleware/async');
 const { s3 } = require('aws-sdk');
+const multer  = require('multer')
+const upload = multer({ dest: 'uploads/' })
 // import s3 from './s3.js'
 
 // create peak
@@ -77,8 +79,8 @@ exports.deletePeak = asyncHandler(async (req, res, next) => {
 // PUT /api/v1/peaks/:id/photo
 // Private
 exports.uploadPeakPhoto = asyncHandler(async (req, res, next) => {
-console.log('req!', req);
-return req;
+console.log('req!', req.body);
+res.send("okay");
 
 
 
