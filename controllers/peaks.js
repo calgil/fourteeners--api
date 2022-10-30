@@ -40,8 +40,6 @@ exports.getPeak = asyncHandler(async (req, res, next) => {
 // PUT /api/v1/peaks/:id
 // Private
 exports.updatePeak = asyncHandler(async (req, res, next) => {
-    console.log('body', req.body);
-    console.log('id', req.params.id);
         let peak = await Peak.findById(req.params.id);
 
         if (!peak) {
