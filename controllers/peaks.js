@@ -1,10 +1,10 @@
 const Peak = require('../models/Peak');
 const ErrorResponse = require('../utils/errorResponse');
 const asyncHandler = require('../middleware/async');
-const { s3 } = require('aws-sdk');
-const multer  = require('multer')
-const upload = multer({ dest: 'uploads/' })
-// import s3 from './s3.js'
+const fs = require('fs')
+const util = require('util')
+const unlinkFile = util.promisify(fs.unlink)
+const { uploadFile, getFileStream } = require('./s3');
 
 // create peak
 // POST /api/v1/peaks
@@ -75,23 +75,22 @@ exports.deletePeak = asyncHandler(async (req, res, next) => {
         res.status(200).json({ success: true });       
 });
 
+exports.getPeakPhoto = ((req, res, next) => {
+    const key = req.params.key
+    const readStream = getFileStream(key)
+
+    readStream.pipe(res)
+})
+
 // upload peak photo
-// PUT /api/v1/peaks/:id/photo
+// POST /api/v1/peaks/:id/photo
 // Private
 exports.uploadPeakPhoto = asyncHandler(async (req, res, next) => {
-console.log('req!', req.body);
-res.send("okay");
-
-
-
-    // const peak = await Peak.findByIdAndUpdate(req.params.id, req.body, {
-    //     new: true,
-    //     runValidators: true
-    // })
-    // if (!peak) {
-    //     return next(new ErrorResponse(`Peak not found with id of ${req.params.id}`, 404));
-    // }
-    //  const url = s3.generateUploadUrl();
-
-    // res.status(200).json({ success: true, data: peak, url: {url} });   
+    const file = req.file
+    const result = await uploadFile(file)
+    await unlinkFile(file.path)
+res.send({ imagePath: `peaks/images/${result.Key}`})
 });
+
+
+

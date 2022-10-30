@@ -51,6 +51,10 @@ app.use('/api/v1/peaks', peaks);
 app.use('/api/v1/auth', auth);
 app.use('/api/v1/users', users);
 
+// app.get('/images/:key', (req, res) => {
+//     console.log(req.params);
+// })
+
 app.use(errorHandler);
 
 const PORT = process.env.PORT || 5001;
