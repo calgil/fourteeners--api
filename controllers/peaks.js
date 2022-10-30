@@ -40,13 +40,18 @@ exports.getPeak = asyncHandler(async (req, res, next) => {
 // PUT /api/v1/peaks/:id
 // Private
 exports.updatePeak = asyncHandler(async (req, res, next) => {
+    console.log('body', req.body);
+    console.log('id', req.params.id);
         let peak = await Peak.findById(req.params.id);
 
         if (!peak) {
             return next(new ErrorResponse(`Peak not found with id of ${req.params.id}`, 404));
         }
 
-        if (peak.user.toString() !== req.user.id && req.user.role !== 'admin') {
+        // if (peak.user.toString() !== req.user.id && req.user.role !== 'admin') {
+        //     return next(new ErrorResponse(`User ${req.params.id} is not authorized to update this peak`, 401));
+        // }
+        if (req.user.role !== 'admin') {
             return next(new ErrorResponse(`User ${req.params.id} is not authorized to update this peak`, 401));
         }
 
