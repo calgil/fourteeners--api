@@ -96,25 +96,6 @@ exports.updateDetails = asyncHandler(async (req, res, next) => {
     })
 });
 
-// update user details
-// GET /api/v1/auth/updatedetails
-// Private
-exports.updatePeaksClimbed = asyncHandler(async (req, res, next) => {
-    const fieldsToUpdate = {
-        peaksClimbed : req.body.peaksClimbed
-    }
-
-    const user = await User.findByIdAndUpdate(req.user.id, fieldsToUpdate, {
-        new: true,
-        runValidators: true 
-    });
-
-
-    res.status(200).json({
-        success: true,
-        data: user
-    })
-});
 
 // update user password
 // POST /api/v1/auth/updatepassword

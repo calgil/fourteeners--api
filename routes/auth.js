@@ -9,7 +9,6 @@ const {
      resetPassword,
      updateDetails,
      updatePassword,
-    //  updatePeaksClimbed,
  } = require('../controllers/auth');
  
  const { protect } = require('../middleware/auth');
@@ -24,7 +23,6 @@ router.get('/me', protect, getLoggedInUser);
 router.put('/updatedetails', protect, updateDetails);
 router.post('/updatepassword', protect, updatePassword);
 router.put('/resetpassword/:resettoken', resetPassword);
-// router.put('/updatepeaksclimbed', protect, updatePeaksClimbed);
 
 
 module.exports = router;
