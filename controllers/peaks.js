@@ -22,6 +22,7 @@ exports.createPeak = asyncHandler(async (req, res, next) => {
 // GET /api/v1/peaks
 // Public
 exports.getPeaks = asyncHandler(async (req, res, next) => {
+    console.log('get peaks');
     res.status(200).json(res.filteredResults);
 });
 
