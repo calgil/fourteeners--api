@@ -46,9 +46,6 @@ exports.updatePeak = asyncHandler(async (req, res, next) => {
             return next(new ErrorResponse(`Peak not found with id of ${req.params.id}`, 404));
         }
 
-        // if (peak.user.toString() !== req.user.id && req.user.role !== 'admin') {
-        //     return next(new ErrorResponse(`User ${req.params.id} is not authorized to update this peak`, 401));
-        // }
         if (req.user.role !== 'admin') {
             return next(new ErrorResponse(`User ${req.params.id} is not authorized to update this peak`, 401));
         }
