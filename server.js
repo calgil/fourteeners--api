@@ -41,7 +41,7 @@ app.use(cors());
 
 const limiter = rateLimit({
 	windowMs: 10 * 60 * 1000, 
-	max: 100,
+	max: 500,
 })
 
 app.use(limiter);
@@ -50,6 +50,10 @@ app.use(limiter);
 app.use('/api/v1/peaks', peaks);
 app.use('/api/v1/auth', auth);
 app.use('/api/v1/users', users);
+
+// app.get('/images/:key', (req, res) => {
+//     console.log(req.params);
+// })
 
 app.use(errorHandler);
 
