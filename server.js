@@ -46,6 +46,8 @@ const limiter = rateLimit({
 
 app.use(limiter);
 
+app.use(express.static(path.join(__dirname, 'public')));
+
 // Mount Routers
 app.use('/api/v1/peaks', peaks);
 app.use('/api/v1/auth', auth);
