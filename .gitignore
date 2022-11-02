@@ -2,3 +2,6 @@ config.env
 *.env
 
 /node_modules
+config/config.env
+_DS_Store
+node_modules/
