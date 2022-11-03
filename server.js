@@ -15,8 +15,6 @@ dotenv.config({ path: './config/config.env' });
 
 connectDB();
 
-// accesskeyid = 'AKIAZHU7DCBQ2W46GDGW '
-// secretaccesskey = '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'
 
 //Route files
 const peaks = require('./routes/peaks');
