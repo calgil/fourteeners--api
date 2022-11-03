@@ -9,7 +9,7 @@ const xss = require('xss-clean');
 const hpp = require('hpp');
 const cors = require('cors');
 const rateLimit = require('express-rate-limit');
-
+const path = require('path');
 const cookieParser = require('cookie-parser');
 dotenv.config({ path: './config/config.env' });
 
@@ -46,7 +46,7 @@ const limiter = rateLimit({
 
 app.use(limiter);
 
-app.use(express.static(path.join(_dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public')));
 
 // Mount Routers
 app.use('/api/v1/peaks', peaks);
