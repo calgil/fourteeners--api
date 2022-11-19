@@ -30,7 +30,8 @@ router.route('/:id')
 
 
 router.route('/uploadphoto')
-    .post(protect, authorize('admin'), upload.single('image'), uploadPeakPhoto);
+    .post(upload.single('image'), uploadPeakPhoto);
+    // .post(protect, authorize('admin'), upload.single('image'), uploadPeakPhoto);
 
 router.route('/images/:key')
     .get(getPeakPhoto);

@@ -84,8 +84,9 @@ exports.getPeakPhoto = ((req, res, next) => {
 
 // upload peak photo
 // POST /api/v1/peaks/:id/photo
-// Private
+// User
 exports.uploadPeakPhoto = asyncHandler(async (req, res, next) => {
+    console.log('upload');
     const file = req.file
     const result = await uploadFile(file)
     await unlinkFile(file.path)

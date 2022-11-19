@@ -20,6 +20,7 @@ connectDB();
 const peaks = require('./routes/peaks');
 const auth = require('./routes/auth');
 const users = require('./routes/users');
+const reports = require('./routes/reports');
 
 const app = express();
 // parse json
@@ -50,6 +51,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/api/v1/peaks', peaks);
 app.use('/api/v1/auth', auth);
 app.use('/api/v1/users', users);
+app.use('/api/v1/reports', reports);
 
 // app.get('/images/:key', (req, res) => {
 //     console.log(req.params);
