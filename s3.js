@@ -72,7 +72,7 @@ async function getFileStream(fileKey) {
   };
   const command = new GetObjectCommand(getObjectParams);
   const url = await getSignedUrl(client, command, { expiresIn: 3600 });
-  console.log("url", url);
+  // console.log("url", url);
   return url;
 }
 exports.getFileStream = getFileStream;
