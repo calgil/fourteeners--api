@@ -23,17 +23,7 @@ exports.createPeak = asyncHandler(async (req, res, next) => {
 // Public
 exports.getPeaks = asyncHandler(async (req, res, next) => {
   const peaks = res.filteredResults.data;
-  // console.log("get all", peaks);
-  // console.log("get all", res.filteredResults);
-  for (const peak of peaks) {
-    const imageUrl = await getFileStream(peak.photos[0].url);
-    peak.photos[0].imageUrl = imageUrl;
-    // console.log("photos", imageUrl);
-  }
-  // console.log("peaks", peaks);
-  // console.log("peaks", peaks);
   res.status(200).json(peaks);
-  // res.send(peaks);
 });
 
 // get peak
@@ -102,45 +92,28 @@ exports.deletePeak = asyncHandler(async (req, res, next) => {
   res.status(200).json({ success: true });
 });
 
-exports.getPeakPhoto = async (req, res, next) => {
-  const key = req.params.key;
-  const readStream = await getFileStream(key);
-  // console.log("read", readStream);
+// exports.getPeakPhoto = async (req, res, next) => {
+//   const key = req.params.key;
+//   const readStream = await getFileStream(key);
+//   // console.log("read", readStream);
 
-  // return readStream;
-  // readStream.pipe(res);
-};
+//   // return readStream;
+//   // readStream.pipe(res);
+// };
 
 // upload peak photo
 // POST /api/v1/peaks/:id/photo
 // User
-exports.uploadPeakPhoto = asyncHandler(async (req, res, next) => {
-  // console.log("upload body", req.body);
-  // console.log("upload file", req.file);
-  console.log("upload photo");
-  const imageName = await uploadFile(req.file);
-  // const result =
-  // console.log("upload res", result);
-  res.send({ success: true, imageName });
-  // await unlinkFile(file.path);
-  // res.send({ imagePath: `peaks/images/${result.Key}` });
-});
-
-exports.deletePhoto = async (req, res, next) => {
-  // console.log("delete");
-  const key = req.params.key;
-  await deleteObject(key);
-  res.send({ success: true });
-};
-// // upload peak photo
-// // POST /api/v1/peaks/:id/photo
-// // User
 // exports.uploadPeakPhoto = asyncHandler(async (req, res, next) => {
-//   console.log("upload");
-//   const file = req.file;
-//   const result = await uploadFile(file);
-//   await unlinkFile(file.path);
-//   res.send({ imagePath: `peaks/images/${result.Key}` });
+//   // console.log("upload body", req.body);
+//   // console.log("upload file", req.file);
+//   console.log("upload photo");
+//   const imageName = await uploadFile(req.file);
+//   // const result =
+//   // console.log("upload res", result);
+//   res.send({ success: true, imageName });
+//   // await unlinkFile(file.path);
+//   // res.send({ imagePath: `peaks/images/${result.Key}` });
 // });
 
 // exports.deletePhoto = async (req, res, next) => {
@@ -149,3 +122,20 @@ exports.deletePhoto = async (req, res, next) => {
 //   await deleteObject(key);
 //   res.send({ success: true });
 // };
+// // // upload peak photo
+// // // POST /api/v1/peaks/:id/photo
+// // // User
+// // exports.uploadPeakPhoto = asyncHandler(async (req, res, next) => {
+// //   console.log("upload");
+// //   const file = req.file;
+// //   const result = await uploadFile(file);
+// //   await unlinkFile(file.path);
+// //   res.send({ imagePath: `peaks/images/${result.Key}` });
+// // });
+
+// // exports.deletePhoto = async (req, res, next) => {
+// //   // console.log("delete");
+// //   const key = req.params.key;
+// //   await deleteObject(key);
+// //   res.send({ success: true });
+// // };

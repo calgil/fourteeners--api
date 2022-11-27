@@ -2,7 +2,6 @@ require("dotenv").config();
 const fs = require("fs");
 const crypto = require("crypto");
 const sharp = require("sharp");
-// const S3Client = require("aws-sdk/clients/s3");
 const {
   S3Client,
   PutObjectCommand,
@@ -10,9 +9,6 @@ const {
   DeleteObjectCommand,
 } = require("@aws-sdk/client-s3");
 const { getSignedUrl } = require("@aws-sdk/s3-request-presigner");
-// const DeleteObjectCommand = require("aws-sdk/clients/s3");
-// import { DeleteObjectCommand } from "@aws-sdk/client-s3";
-// import { s3Client } from "./libs/s3Client.js";
 
 const randomImageName = (bytes = 32) =>
   crypto.randomBytes(bytes).toString("hex");
@@ -46,26 +42,10 @@ async function uploadFile(file) {
   const command = new PutObjectCommand(uploadParams);
   await client.send(command);
   return imageName;
-  // const fileStream = fs.createReadStream(file.path);
-
-  // return client.upload(uploadParams).promise();
 }
 exports.uploadFile = uploadFile;
 
-// function uploadFile(file) {
-//   const fileStream = fs.createReadStream(file.path);
-
-//   const uploadParams = {
-//     Bucket: bucketName,
-//     Body: fileStream,
-//     Key: file.filename,
-//   };
-
-//   return client.upload(uploadParams).promise();
-// }
-// exports.uploadFile = uploadFile;
-
-async function getFileStream(fileKey) {
+async function getPresignedUrl(fileKey) {
   const getObjectParams = {
     Bucket: bucketName,
     Key: fileKey,
@@ -75,28 +55,13 @@ async function getFileStream(fileKey) {
   // console.log("url", url);
   return url;
 }
-exports.getFileStream = getFileStream;
-
-// const getFileStream = async (fileKey) => {
-//   const downloadParams = {
-//     Key: fileKey,
-//     Bucket: bucketName,
-//   };
-//   const command = new GetObjectCommand(downloadParams);
-//   const response = await client.send(command);
-//   // const response = client.getObject(downloadParams).createReadStream();
-//   console.log("res", response);
-
-//   // return client.getObject(downloadParams).createReadStream();
-// };
-// exports.getFileStream = getFileStream;
+exports.getPresignedUrl = getPresignedUrl;
 
 const deleteObject = async (fileKey) => {
   const params = { Bucket: bucketName, Key: fileKey };
   const command = new DeleteObjectCommand(params);
   const response = await client.send(command);
   console.log("res", response);
-  // return client.send(command);
 };
 
 exports.deleteObject = deleteObject;
