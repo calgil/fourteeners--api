@@ -26,7 +26,6 @@ exports.getPeaks = asyncHandler(async (req, res, next) => {
   for (const peak of peaks) {
     const url = await getPresignedUrl(peak.photos[0].url);
     peak.photos[0].imageUrl = url;
-    console.log("photos", peak.photos);
   }
   res.status(200).json(peaks);
 });
@@ -41,6 +40,8 @@ exports.getPeak = asyncHandler(async (req, res, next) => {
       new ErrorResponse(`Peak not found with id of ${req.params.id}`, 404)
     );
   }
+  const url = await getPresignedUrl(peak.photos[0].url);
+  peak.photos[0].imageUrl = url;
   res.status(200).json({ success: true, data: peak });
 });
 
@@ -49,6 +50,7 @@ exports.getPeak = asyncHandler(async (req, res, next) => {
 // Private
 exports.updatePeak = asyncHandler(async (req, res, next) => {
   let peak = await Peak.findById(req.params.id);
+  console.log("update peak", req.body);
 
   if (!peak) {
     return next(
@@ -96,51 +98,3 @@ exports.deletePeak = asyncHandler(async (req, res, next) => {
 
   res.status(200).json({ success: true });
 });
-
-// exports.getPeakPhoto = async (req, res, next) => {
-//   const key = req.params.key;
-//   const readStream = await getFileStream(key);
-//   // console.log("read", readStream);
-
-//   // return readStream;
-//   // readStream.pipe(res);
-// };
-
-// upload peak photo
-// POST /api/v1/peaks/:id/photo
-// User
-// exports.uploadPeakPhoto = asyncHandler(async (req, res, next) => {
-//   // console.log("upload body", req.body);
-//   // console.log("upload file", req.file);
-//   console.log("upload photo");
-//   const imageName = await uploadFile(req.file);
-//   // const result =
-//   // console.log("upload res", result);
-//   res.send({ success: true, imageName });
-//   // await unlinkFile(file.path);
-//   // res.send({ imagePath: `peaks/images/${result.Key}` });
-// });
-
-// exports.deletePhoto = async (req, res, next) => {
-//   // console.log("delete");
-//   const key = req.params.key;
-//   await deleteObject(key);
-//   res.send({ success: true });
-// };
-// // // upload peak photo
-// // // POST /api/v1/peaks/:id/photo
-// // // User
-// // exports.uploadPeakPhoto = asyncHandler(async (req, res, next) => {
-// //   console.log("upload");
-// //   const file = req.file;
-// //   const result = await uploadFile(file);
-// //   await unlinkFile(file.path);
-// //   res.send({ imagePath: `peaks/images/${result.Key}` });
-// // });
-
-// // exports.deletePhoto = async (req, res, next) => {
-// //   // console.log("delete");
-// //   const key = req.params.key;
-// //   await deleteObject(key);
-// //   res.send({ success: true });
-// // };

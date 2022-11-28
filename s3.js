@@ -60,7 +60,6 @@ const deleteObject = async (fileKey) => {
   const params = { Bucket: bucketName, Key: fileKey };
   const command = new DeleteObjectCommand(params);
   const response = await client.send(command);
-  console.log("res", response);
 };
 
 exports.deleteObject = deleteObject;

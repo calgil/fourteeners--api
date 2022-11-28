@@ -55,10 +55,6 @@ app.use("/api/v1/users", users);
 app.use("/api/v1/reports", reports);
 app.use("/api/v1/photos", photos);
 
-// app.get('/images/:key', (req, res) => {
-//     console.log(req.params);
-// })
-
 app.use(errorHandler);
 
 const PORT = process.env.PORT || 5001;

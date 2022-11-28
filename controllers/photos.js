@@ -13,7 +13,6 @@ exports.uploadPhoto = asyncHandler(async (req, res, next) => {
 // DELETE /api/v1/photos/:id/photo
 // Admin or user's own
 exports.deletePhoto = async (req, res, next) => {
-  // console.log("delete");
   const key = req.params.id;
   const response = await deleteObject(key);
   res.send({ response });
