@@ -52,7 +52,6 @@ async function getPresignedUrl(fileKey) {
   };
   const command = new GetObjectCommand(getObjectParams);
   const url = await getSignedUrl(client, command, { expiresIn: 3600 });
-  // console.log("url", url);
   return url;
 }
 exports.getPresignedUrl = getPresignedUrl;

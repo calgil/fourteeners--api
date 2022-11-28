@@ -4,7 +4,7 @@ const asyncHandler = require("../middleware/async");
 const fs = require("fs");
 const util = require("util");
 const unlinkFile = util.promisify(fs.unlink);
-const { uploadFile, getFileStream, deleteObject } = require("../s3");
+const { uploadFile, getPresignedUrl, deleteObject } = require("../s3");
 
 // create peak
 // POST /api/v1/peaks
@@ -23,6 +23,11 @@ exports.createPeak = asyncHandler(async (req, res, next) => {
 // Public
 exports.getPeaks = asyncHandler(async (req, res, next) => {
   const peaks = res.filteredResults.data;
+  for (const peak of peaks) {
+    const url = await getPresignedUrl(peak.photos[0].url);
+    peak.photos[0].imageUrl = url;
+    console.log("photos", peak.photos);
+  }
   res.status(200).json(peaks);
 });
 
