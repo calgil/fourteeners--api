@@ -29,7 +29,8 @@ const client = new S3Client({
 async function uploadFile(file) {
   const imageName = randomImageName();
   const buffer = await sharp(file.buffer)
-    .resize({ height: 800, width: 800, fit: "contain" })
+    // .resize({ height: 800, width: 800, fit: "contain" })
+    .resize({ width: 800 })
     .toBuffer();
 
   const uploadParams = {
