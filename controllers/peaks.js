@@ -4,7 +4,7 @@ const asyncHandler = require("../middleware/async");
 const fs = require("fs");
 const util = require("util");
 const unlinkFile = util.promisify(fs.unlink);
-const { uploadFile, getPresignedUrl, deleteObject } = require("../s3");
+const { getPresignedUrl } = require("../s3");
 
 // create peak
 // POST /api/v1/peaks

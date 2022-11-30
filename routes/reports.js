@@ -1,14 +1,10 @@
 const express = require("express");
 const router = express.Router();
-// const Report = require('../models/Report');
+const filteredResults = require("../middleware/filteredResults");
+const Report = require("../models/Report");
 
-const {
-  createReport,
-  //   uploadReportPhoto,
-} = require("../controllers/reports");
+const { createReport, getReports } = require("../controllers/reports");
 
-router.route("/").post(createReport);
-
-// router.route("/images").post(uploadReportPhoto);
+router.route("/").post(createReport).get(filteredResults(Report), getReports);
 
 module.exports = router;
