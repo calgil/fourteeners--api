@@ -22,12 +22,20 @@ exports.createPeak = asyncHandler(async (req, res, next) => {
 // GET /api/v1/peaks
 // Public
 exports.getPeaks = asyncHandler(async (req, res, next) => {
+  const { success, count, pagination } = res.filteredResults;
   const peaks = res.filteredResults.data;
   for (const peak of peaks) {
-    const url = await getPresignedUrl(peak.photos[0].url);
-    peak.photos[0].imageUrl = url;
+    if (peak.photos) {
+      const url = await getPresignedUrl(peak.photos[0].url);
+      peak.photos[0].imageUrl = url;
+    }
   }
-  res.status(200).json(peaks);
+  res.status(200).json({
+    success,
+    count,
+    pagination,
+    peaks,
+  });
 });
 
 // get peak

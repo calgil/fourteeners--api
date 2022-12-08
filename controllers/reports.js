@@ -11,10 +11,18 @@ exports.createReport = asyncHandler(async (req, res, next) => {
 });
 
 exports.getReports = asyncHandler(async (req, res, next) => {
+  const { success, count, pagination } = res.filteredResults;
   const reports = res.filteredResults.data;
   for (const report of reports) {
-    const url = await getPresignedUrl(report.photos[0].url);
-    report.photos[0].imageUrl = url;
+    if (report.photos) {
+      const url = await getPresignedUrl(report.photos[0].url);
+      report.photos[0].imageUrl = url;
+    }
   }
-  res.status(200).json(reports);
+  res.status(200).json({
+    success,
+    count,
+    pagination,
+    reports,
+  });
 });
