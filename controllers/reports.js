@@ -26,3 +26,31 @@ exports.getReports = asyncHandler(async (req, res, next) => {
     reports,
   });
 });
+
+exports.updateReport = asyncHandler(async (req, res, next) => {
+  let report = await Report.findById(req.params.id);
+  if (!report) {
+    return next(
+      new ErrorResponse(`Peak not found with id of ${req.params.id}`, 404)
+    );
+  }
+  report = await Report.findByIdAndUpdate(req.params.id, req.body, {
+    new: true,
+    runValidators: true,
+  });
+
+  res.status(200).json({ success: true, data: report });
+});
+
+exports.deleteReport = asyncHandler(async (req, res, next) => {
+  const report = await Report.findById(req.params.id);
+  if (!report) {
+    return next(
+      new ErrorResponse(`Peak not found with id of ${req.params.id}`, 404)
+    );
+  }
+
+  report.remove();
+
+  res.status(200).json({ success: true });
+});

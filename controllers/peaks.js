@@ -58,7 +58,6 @@ exports.getPeak = asyncHandler(async (req, res, next) => {
 // Private
 exports.updatePeak = asyncHandler(async (req, res, next) => {
   let peak = await Peak.findById(req.params.id);
-  console.log("update peak", req.body);
 
   if (!peak) {
     return next(
