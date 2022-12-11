@@ -1,5 +1,7 @@
 config.env
 
+.vscode
+
 
 /node_modules
 config/config.env
