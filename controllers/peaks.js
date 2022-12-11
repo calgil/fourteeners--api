@@ -42,6 +42,7 @@ exports.getPeaks = asyncHandler(async (req, res, next) => {
 // GET /api/v1/peaks/:id
 // Public
 exports.getPeak = asyncHandler(async (req, res, next) => {
+  console.log("get all");
   const peak = await Peak.findById(req.params.id);
   if (!peak) {
     return next(
